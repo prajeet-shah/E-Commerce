@@ -19,7 +19,7 @@ const Navbar = () => {
         </ul>
 
         <div className='nav-cart-icon flex items-center gap-10'>
-        <Link to={'/login'}><button className=' h-10 w-28 outline-none border-2 border-black-500 rounded-3xl text-brown-300 font-normal bg-white cursor-pointer active:bg-blue-100'>Login</button></Link>
+        <Link to={'/loginsignup'}><button className=' h-10 w-28 outline-none border-2 border-black-500 rounded-3xl text-brown-300 font-normal bg-white cursor-pointer active:bg-blue-100'>Login</button></Link>
         <Link to={'/cart'}><img src={cart_icon} /></Link>
         
         
