@@ -5,7 +5,7 @@ const LoginSignup = () => {
     <div className='loginsignup w-full min-h-screen bg-pink-200 pt-10'>
     <div className='loginsignup-container w-96 h-96 bg-white mx-auto my-auto py-12 px-16'>
       <h1 className='mx-0 my-6'>Sign Up</h1>
-      <div className='loginsignup-fields '>
+      <div className='loginsignup-fields'>
         <input type='text' placeholder='Your Name'/>
         <input type='email' placeholder='Email Address'/>
         <input type='password' placeholder='Password'/>
